@@ -35,6 +35,8 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.qa.lib.TakeScreenshot;
 import com.qa.lib.WebElementListener;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 public class Base {
@@ -50,8 +52,8 @@ public class Base {
 		public static ExtentReports extent;
 		static String nodeURL;
 		public static Properties prop;
+		
 		@BeforeSuite
-
 		public void ReportSetup() throws IOException 
 		{
 			htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/test-output/STMExtentReport1.html");
@@ -92,7 +94,7 @@ public class Base {
 			String browserName = prop.getProperty("browser");
 
 			if(browserName.equals("Chrome")){
-				System.setProperty("webdriver.chrome.driver","C:\\Users\\AL Moin Webtech\\Downloads\\chromedriver.exe");	
+				WebDriverManager.chromedriver().setup();		
 				driver = new ChromeDriver(); 
 			}
 			else if(browserName.equals("FireFox")){

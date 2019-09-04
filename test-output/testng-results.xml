@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31464" started-at="2019-09-04T08:55:27Z" finished-at="2019-09-04T08:55:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31464" started-at="2019-09-04T08:55:27Z" finished-at="2019-09-04T08:55:58Z">
+      <class name="com.herokuapp.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="ReportSetup" is-config="true" duration-ms="245" started-at="2019-09-04T08:55:26Z" finished-at="2019-09-04T08:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="setup" is-config="true" duration-ms="11455" started-at="2019-09-04T08:55:27Z" finished-at="2019-09-04T08:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyloginpagetitle()[pri:1, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="verifyloginpagetitle" duration-ms="686" started-at="2019-09-04T08:55:38Z" description="Validation of Login page tile" finished-at="2019-09-04T08:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginpagetitle -->
+        <test-method status="PASS" signature="Exit()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="Exit" is-config="true" duration-ms="957" started-at="2019-09-04T08:55:39Z" finished-at="2019-09-04T08:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="getResult" is-config="true" duration-ms="9" started-at="2019-09-04T08:55:40Z" finished-at="2019-09-04T08:55:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginpagetitle status=SUCCESS method=LoginPageTest.verifyloginpagetitle()[pri:1, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="setup" is-config="true" duration-ms="8698" started-at="2019-09-04T08:55:40Z" finished-at="2019-09-04T08:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="login" duration-ms="8608" started-at="2019-09-04T08:55:49Z" description="Tracify user login Page" finished-at="2019-09-04T08:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Exit()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="Exit" is-config="true" duration-ms="1014" started-at="2019-09-04T08:55:57Z" finished-at="2019-09-04T08:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="getResult" is-config="true" duration-ms="2" started-at="2019-09-04T08:55:58Z" finished-at="2019-09-04T08:55:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginPageTest.login()[pri:2, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="endReport" is-config="true" duration-ms="398" started-at="2019-09-04T08:55:58Z" finished-at="2019-09-04T08:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.herokuapp.qa.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

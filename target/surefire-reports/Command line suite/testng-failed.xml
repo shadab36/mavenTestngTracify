@@ -5,9 +5,11 @@
     <classes>
       <class name="com.herokuapp.qa.tests.LoginPageTest">
         <methods>
+          <include name="endReport"/>
           <include name="verifyloginpagetitle"/>
           <include name="setup"/>
           <include name="Exit"/>
+          <include name="ReportSetup"/>
           <include name="getResult"/>
         </methods>
       </class> <!-- com.herokuapp.qa.tests.LoginPageTest -->
