@@ -33,10 +33,18 @@ public class LoginPage extends Base {
 		
 		public HomePage login(String UN,String PWD) {
 		
-			username.sendKeys(UN);
-			password.sendKeys(PWD);
+			if(username.isDisplayed()) {
+				logger.info("usernameFiled is dispalyed");
+				username.sendKeys(UN);	
+			}
+			if(password.isDisplayed()) {
+				logger.info("passwordFiled is dispalyed");
+				password.sendKeys(PWD);	
+			}
+			if(loginbutton.isDisplayed()) {
+				logger.info("login button is dispalyed");
 			loginbutton.click();
-		
+			}
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {

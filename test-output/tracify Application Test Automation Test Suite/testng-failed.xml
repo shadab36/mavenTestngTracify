@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [tracify Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.extentReportsListner.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="tracify app test Cases(failed)">
+    <classes>
+      <class name="com.herokuapp.qa.tests.VerifyAllDataButtonPageTest">
+        <methods>
+          <include name="Importpdf"/>
+          <include name="setup"/>
+          <include name="nextandprevious"/>
+          <include name="Importprint"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.VerifyAllDataButtonPageTest -->
+      <class name="com.herokuapp.qa.tests.ColleaguesPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="colleagues_link"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.ColleaguesPageTest -->
+      <class name="com.herokuapp.qa.tests.InvalidUserPageTest">
+        <methods>
+          <include name="verifhtmlmessageforpassword"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getDecoded"/>
+          <include name="verifhtmlmessagebothfiled"/>
+          <include name="getResult"/>
+          <include name="veriferror"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.InvalidUserPageTest -->
+      <class name="com.herokuapp.qa.tests.CustomerFormPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="Customer"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.CustomerFormPageTest -->
+      <class name="com.herokuapp.qa.tests.CustomerPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+          <include name="Customer"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.CustomerPageTest -->
+    </classes>
+  </test> <!-- tracify app test Cases(failed) -->
+</suite> <!-- Failed suite [tracify Application Test Automation Test Suite] -->

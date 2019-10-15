@@ -23,6 +23,7 @@ public class EditProfilePageTest extends Base{
 		 super();
 	 }
 	 
+		
 		@BeforeMethod
 	 public void setup() throws MalformedURLException {
 		 initialization();
@@ -40,11 +41,10 @@ public class EditProfilePageTest extends Base{
 		}
 	 @Test(priority=6,dataProvider="profileupdate",description="Update the user profile")
 	 public void update(String Cname) { 
-			log=extent.createTest("verify the updated the profile");
+		
 		 Profilepage. enterCity(Cname);
 	 Profilepage.SaveProfile();
-	 logger.info("Update the profile");
-	log=extent.createTest("Update the user profile");
+	
 	 String valmessage= Profilepage.verifySuccess();
 		assertEquals(valmessage, "Modifié !","updated message is not matched");
 		
@@ -56,7 +56,7 @@ public class EditProfilePageTest extends Base{
 
 @Test(priority=7,dataProvider="profileupdate",description="verify the edited profile data")	
 public void verify_updated_data(String Cityname) {
-	log=extent.createTest("verify the enter value on  the profile page");
+	
 	  String text= Profilepage.VerifyCityname();
 	  System.err.println("hi"+text);
 	  System.out.println(Cityname);

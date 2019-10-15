@@ -1,18 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Command line suite]">
-  <test thread-count="5" verbose="0" name="Command line test(failed)">
+  <test name="Command line test(failed)">
     <classes>
+      <class name="com.herokuapp.qa.tests.EditProfilePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="update"/>
+          <include name="verify_updated_data"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.EditProfilePageTest -->
+      <class name="com.herokuapp.qa.tests.MissionProductionPageTest">
+        <methods>
+          <include name="completeMission"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="allMission"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.MissionProductionPageTest -->
+      <class name="com.herokuapp.qa.tests.LogoutPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="clicklogout"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.LogoutPageTest -->
+      <class name="com.herokuapp.qa.tests.MissionTable_expandPageTest">
+        <methods>
+          <include name="expand_table"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.MissionTable_expandPageTest -->
+      <class name="com.herokuapp.qa.tests.SubDivisonMissionPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifyaddmision_as_subdepart"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.SubDivisonMissionPageTest -->
+      <class name="com.herokuapp.qa.tests.CreateMissionsPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifymissionlabel"/>
+          <include name="getResult"/>
+          <include name="verifyTableList"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.CreateMissionsPageTest -->
+      <class name="com.herokuapp.qa.tests.BreadcrumbsPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="ClickBreadcumlink"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.BreadcrumbsPageTest -->
+      <class name="com.herokuapp.qa.tests.NonAdminUserPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyHomePageTitle" invocation-numbers="0 1"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.NonAdminUserPageTest -->
+      <class name="com.herokuapp.qa.tests.DeleteMissionPageTest">
+        <methods>
+          <include name="veriflabel"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.DeleteMissionPageTest -->
+      <class name="com.herokuapp.qa.tests.VerifyAllDataButtonPageTest">
+        <methods>
+          <include name="Importpdf"/>
+          <include name="setup"/>
+          <include name="nextandprevious"/>
+          <include name="Importcopy"/>
+          <include name="Importprint"/>
+          <include name="teardown"/>
+          <include name="Impotexcel"/>
+          <include name="Importcsv"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.VerifyAllDataButtonPageTest -->
+      <class name="com.herokuapp.qa.tests.FollowupcreatedMissionPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="verifymissionlabel" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.FollowupcreatedMissionPageTest -->
+      <class name="com.herokuapp.qa.tests.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="VerifyUserProfileName"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.HomePageTest -->
+      <class name="com.herokuapp.qa.tests.InvalidUserPageTest">
+        <methods>
+          <include name="verifhtmlmessageforpassword"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="getDecoded"/>
+          <include name="verifhtmlmessagebothfiled"/>
+          <include name="getResult"/>
+          <include name="veriferror"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.InvalidUserPageTest -->
+      <class name="com.herokuapp.qa.tests.UpdateMissionPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifymissionlabel"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.UpdateMissionPageTest -->
       <class name="com.herokuapp.qa.tests.LoginPageTest">
         <methods>
-          <include name="endReport"/>
-          <include name="verifyloginpagetitle"/>
+          <include name="login"/>
           <include name="setup"/>
-          <include name="Exit"/>
-          <include name="ReportSetup"/>
+          <include name="teardown"/>
           <include name="getResult"/>
         </methods>
       </class> <!-- com.herokuapp.qa.tests.LoginPageTest -->
+      <class name="com.herokuapp.qa.tests.CustomerPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+          <include name="Customer"/>
+        </methods>
+      </class> <!-- com.herokuapp.qa.tests.CustomerPageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

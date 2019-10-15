@@ -29,7 +29,7 @@ public class SubDivisonMissionPageTest extends Base{
 	public void setup() throws MalformedURLException {
 		initialization();
 		loginpage= new LoginPage();
-		homepage=loginpage.login(prop.getProperty("UserName"), prop.getProperty("Password"));
+		homepage = loginpage.login(prop.getProperty("UserName"), prop.getProperty("Password"));
 		createmission=new CreateMissionsPage();
 		submisssion=new SubDivisonMissionPage();
 	}
@@ -40,9 +40,9 @@ public class SubDivisonMissionPageTest extends Base{
 	
 	}
 	
-@Test(priority=11,dataProvider="Tracifysubmission", description="verify add mission button with sub departement")
+@Test(priority=12,dataProvider="Tracifysubmission", description="verify add mission button with sub departement")
 public  void  verifyaddmision_as_subdepart(String Department, String Category,String Customer,String Responsible,String ProjectManager,String Typeofdeadline) throws InterruptedException  {
-	log=extent.createTest("verify the subdivison mission");
+	
 	submisssion.By_department(Department);
 	submisssion.By_submission_cta(Department);
 }

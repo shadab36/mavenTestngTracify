@@ -1,6 +1,7 @@
 package com.herokuapp.qa.tests;
 
 
+
 import static org.testng.Assert.assertEquals;
 
 import java.net.MalformedURLException;
@@ -37,16 +38,17 @@ public class CreateMissionsPageTest extends Base{
 		homepage=loginpage.login(prop.getProperty("UserName"), prop.getProperty("Password"));
 		createmission=new CreateMissionsPage();
 	}
-	@Test (priority=9,description="verify the the table list")
-	public void verifyTableList(){
-		log=extent.createTest("verify the the table list on page");
+	@Test (priority=8,description="verify the the table list")
+	public void verifyTableList() throws InterruptedException{
+		
 		createmission.Select_all_department();
+		Thread.sleep(2000);
 	 WebElement table = driver.findElement(By.xpath("//table/tbody")); 
 
 	    List<WebElement> allRows = table.findElements(By.tagName("tr"));
 	    System.err.println(allRows.size());
 	    int number=10;
-	    assertEquals((allRows.size()), number,"tablesize is not match");
+	    assertEquals((allRows.size()),number,"tablesize is not match");
 	}
 	
 	@DataProvider
@@ -56,9 +58,9 @@ public class CreateMissionsPageTest extends Base{
 	
 	}
 	
-	@Test (priority=10, dataProvider="TracifyData", description="Fills the crate mission filed")
-	public void verifymissionlabel(String Department, String Category,String Customer,String Responsible,String ProjectManager,String Typeofdeadline) {
-		log=extent.createTest("create the new mission");
+	@Test (priority=9, dataProvider="TracifyData", description="Fills the crate mission filed")
+	public void verifymissionlabel(String Department, String Category,String Customer,String Responsible,String ProjectManager,String Typeofdeadline) throws InterruptedException {
+		
 		createmission.Select_all_department();
 		createmission.Add_mission();
 		
@@ -71,7 +73,7 @@ public class CreateMissionsPageTest extends Base{
 		createmission.Select_date();
 		try {
 			createmission.Save_mission();
-			logger.info("create the new mission");
+			
 		} catch (Throwable e) {
 			
 			e.printStackTrace();

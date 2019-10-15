@@ -30,14 +30,14 @@ public class BreadcrumbsPageTest extends Base{
 	public void setup() throws MalformedURLException {
 		initialization();
 		loginpage=new LoginPage();
-		homepage=loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+		homepage = loginpage.login(prop.getProperty("UserName"), prop.getProperty("Password"));
 		createmission=new CreateMissionsPage();
 		createmission.Add_mission();
 		breadcrumbpage=new BreadcrumbsPage();
 	}
-	@Test(priority=8,description="Verify the breadcrum")
+	@Test(priority=10,description="Verify the breadcrum")
 	public void ClickBreadcumlink() {
-		log=extent.createTest("Test the breadcrum");
+	
 		breadcrumbpage.Landingpage();
 		
 		String Cuurnetpage= homepage.VerifyHomePageUrl();

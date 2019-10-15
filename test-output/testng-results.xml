@@ -1,67 +1,1858 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="10" failed="0" ignored="0" total="40" passed="30">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31464" started-at="2019-09-04T08:55:27Z" finished-at="2019-09-04T08:55:58Z">
+  <suite name="tracify Application Test Automation Test Suite" duration-ms="1049739" started-at="2019-10-15T06:29:20Z" finished-at="2019-10-15T06:46:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31464" started-at="2019-09-04T08:55:27Z" finished-at="2019-09-04T08:55:58Z">
-      <class name="com.herokuapp.qa.tests.LoginPageTest">
-        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="ReportSetup" is-config="true" duration-ms="245" started-at="2019-09-04T08:55:26Z" finished-at="2019-09-04T08:55:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="setup" is-config="true" duration-ms="11455" started-at="2019-09-04T08:55:27Z" finished-at="2019-09-04T08:55:38Z">
+    <test name="tracify app test Cases" duration-ms="1049739" started-at="2019-10-15T06:29:20Z" finished-at="2019-10-15T06:46:50Z">
+      <class name="com.herokuapp.qa.tests.BreadcrumbsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.BreadcrumbsPageTest@64729b1e]" name="setup" is-config="true" duration-ms="21215" started-at="2019-10-15T06:33:14Z" finished-at="2019-10-15T06:33:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloginpagetitle()[pri:1, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="verifyloginpagetitle" duration-ms="686" started-at="2019-09-04T08:55:38Z" description="Validation of Login page tile" finished-at="2019-09-04T08:55:39Z">
+        <test-method status="PASS" signature="ClickBreadcumlink()[pri:10, instance:com.herokuapp.qa.tests.BreadcrumbsPageTest@64729b1e]" name="ClickBreadcumlink" duration-ms="3424" started-at="2019-10-15T06:33:35Z" description="Verify the breadcrum" finished-at="2019-10-15T06:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickBreadcumlink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.BreadcrumbsPageTest@64729b1e]" name="teardown" is-config="true" duration-ms="132" started-at="2019-10-15T06:33:38Z" finished-at="2019-10-15T06:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.BreadcrumbsPageTest@64729b1e]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:33:38Z" finished-at="2019-10-15T06:33:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickBreadcumlink status=SUCCESS method=BreadcrumbsPageTest.ClickBreadcumlink()[pri:10, instance:com.herokuapp.qa.tests.BreadcrumbsPageTest@64729b1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.herokuapp.qa.tests.BreadcrumbsPageTest -->
+      <class name="com.herokuapp.qa.tests.CancelMissionPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.CancelMissionPageTest@5a1c0542]" name="setup" is-config="true" duration-ms="15945" started-at="2019-10-15T06:40:24Z" finished-at="2019-10-15T06:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifymissionlabel()[pri:20, instance:com.herokuapp.qa.tests.CancelMissionPageTest@5a1c0542]" name="verifymissionlabel" duration-ms="23914" started-at="2019-10-15T06:40:40Z" description="Cancel the mission create page" finished-at="2019-10-15T06:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymissionlabel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.CancelMissionPageTest@5a1c0542]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:41:04Z" finished-at="2019-10-15T06:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymissionlabel status=SUCCESS method=CancelMissionPageTest.verifymissionlabel()[pri:20, instance:com.herokuapp.qa.tests.CancelMissionPageTest@5a1c0542] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.CancelMissionPageTest@5a1c0542]" name="teardown" is-config="true" duration-ms="122" started-at="2019-10-15T06:41:04Z" finished-at="2019-10-15T06:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.CancelMissionPageTest -->
+      <class name="com.herokuapp.qa.tests.InvalidUserPageTest">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="verifhtmlmessagebothfiled()[pri:31, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="verifhtmlmessagebothfiled" duration-ms="0" started-at="2019-10-15T06:46:49Z" description="verify the empty data" finished-at="2019-10-15T06:46:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifhtmlmessagebothfiled -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="verifhtmlmessageforpassword()[pri:32, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="verifhtmlmessageforpassword" duration-ms="0" started-at="2019-10-15T06:46:49Z" description="verify the empty for password filed" finished-at="2019-10-15T06:46:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifhtmlmessageforpassword -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="veriferror(java.lang.String, java.lang.String)[pri:33, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="veriferror" duration-ms="0" started-at="2019-10-15T06:46:49Z" description="Fills the crate mission filed" data-provider="TracifyData" finished-at="2019-10-15T06:46:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriferror -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:50Z" finished-at="2019-10-15T06:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:50Z" finished-at="2019-10-15T06:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:50Z" finished-at="2019-10-15T06:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="getDecoded()[pri:34, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="getDecoded" duration-ms="0" started-at="2019-10-15T06:46:50Z" description="verify encrypted password" finished-at="2019-10-15T06:46:50Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDecoded -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:50Z" finished-at="2019-10-15T06:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.InvalidUserPageTest@167fdd33]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:50Z" finished-at="2019-10-15T06:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.InvalidUserPageTest -->
+      <class name="com.herokuapp.qa.tests.EditProfilePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.EditProfilePageTest@2d6eabae]" name="setup" is-config="true" duration-ms="20409" started-at="2019-10-15T06:30:49Z" finished-at="2019-10-15T06:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="update(java.lang.String)[pri:6, instance:com.herokuapp.qa.tests.EditProfilePageTest@2d6eabae]" name="update" duration-ms="4844" started-at="2019-10-15T06:31:10Z" description="Update the user profile" data-provider="profileupdate" finished-at="2019-10-15T06:31:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Indore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.EditProfilePageTest@2d6eabae]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:31:15Z" finished-at="2019-10-15T06:31:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=update status=SUCCESS method=EditProfilePageTest.update(java.lang.String)[pri:6, instance:com.herokuapp.qa.tests.EditProfilePageTest@2d6eabae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.EditProfilePageTest@2d6eabae]" name="teardown" is-config="true" duration-ms="165" started-at="2019-10-15T06:31:15Z" finished-at="2019-10-15T06:31:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.EditProfilePageTest@2d6eabae]" name="setup" is-config="true" duration-ms="19024" started-at="2019-10-15T06:31:15Z" finished-at="2019-10-15T06:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_updated_data(java.lang.String)[pri:7, instance:com.herokuapp.qa.tests.EditProfilePageTest@2d6eabae]" name="verify_updated_data" duration-ms="50" started-at="2019-10-15T06:31:34Z" description="verify the edited profile data" data-provider="profileupdate" finished-at="2019-10-15T06:31:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Indore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_updated_data -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.EditProfilePageTest@2d6eabae]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-15T06:31:34Z" finished-at="2019-10-15T06:31:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_updated_data status=SUCCESS method=EditProfilePageTest.verify_updated_data(java.lang.String)[pri:7, instance:com.herokuapp.qa.tests.EditProfilePageTest@2d6eabae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.EditProfilePageTest@2d6eabae]" name="teardown" is-config="true" duration-ms="136" started-at="2019-10-15T06:31:34Z" finished-at="2019-10-15T06:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.EditProfilePageTest -->
+      <class name="com.herokuapp.qa.tests.NonAdminUserPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="setup" is-config="true" duration-ms="10535" started-at="2019-10-15T06:34:49Z" finished-at="2019-10-15T06:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="verifyHomePageTitle" duration-ms="26236" started-at="2019-10-15T06:35:00Z" description="Validation the non admin user loginthe application" data-provider="NonAdminUser" finished-at="2019-10-15T06:35:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testuser748596]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hamaza2019+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="teardown" is-config="true" duration-ms="133" started-at="2019-10-15T06:35:26Z" finished-at="2019-10-15T06:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:35:26Z" finished-at="2019-10-15T06:35:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=NonAdminUserPageTest.verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="setup" is-config="true" duration-ms="8891" started-at="2019-10-15T06:35:26Z" finished-at="2019-10-15T06:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="verifyHomePageTitle" duration-ms="27944" started-at="2019-10-15T06:35:35Z" description="Validation the non admin user loginthe application" data-provider="NonAdminUser" finished-at="2019-10-15T06:36:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hamaza2019+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-15T06:36:03Z" finished-at="2019-10-15T06:36:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=NonAdminUserPageTest.verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="teardown" is-config="true" duration-ms="122" started-at="2019-10-15T06:36:03Z" finished-at="2019-10-15T06:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="setup" is-config="true" duration-ms="8924" started-at="2019-10-15T06:36:03Z" finished-at="2019-10-15T06:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="verifyHomePageTitle" duration-ms="27429" started-at="2019-10-15T06:36:12Z" description="Validation the non admin user loginthe application" data-provider="NonAdminUser" finished-at="2019-10-15T06:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChhotuQa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chhotu2019+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="teardown" is-config="true" duration-ms="125" started-at="2019-10-15T06:36:39Z" finished-at="2019-10-15T06:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:36:39Z" finished-at="2019-10-15T06:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=NonAdminUserPageTest.verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="setup" is-config="true" duration-ms="12557" started-at="2019-10-15T06:36:39Z" finished-at="2019-10-15T06:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="verifyHomePageTitle" duration-ms="11775" started-at="2019-10-15T06:36:52Z" description="Validation the non admin user loginthe application" data-provider="NonAdminUser" finished-at="2019-10-15T06:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chhotu2019+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="teardown" is-config="true" duration-ms="126" started-at="2019-10-15T06:37:04Z" finished-at="2019-10-15T06:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:37:04Z" finished-at="2019-10-15T06:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=NonAdminUserPageTest.verifyHomePageTitle(java.lang.String, java.lang.String)[pri:13, instance:com.herokuapp.qa.tests.NonAdminUserPageTest@6895a785] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.herokuapp.qa.tests.NonAdminUserPageTest -->
+      <class name="com.herokuapp.qa.tests.VerifyAllDataButtonPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="setup" is-config="true" duration-ms="14825" started-at="2019-10-15T06:44:30Z" finished-at="2019-10-15T06:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchandnextprevios_button()[pri:21, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="searchandnextprevios_button" duration-ms="4363" started-at="2019-10-15T06:44:45Z" description="verify the search filed" finished-at="2019-10-15T06:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchandnextprevios_button -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="teardown" is-config="true" duration-ms="90" started-at="2019-10-15T06:44:49Z" finished-at="2019-10-15T06:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:44:49Z" finished-at="2019-10-15T06:44:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchandnextprevios_button status=SUCCESS method=VerifyAllDataButtonPageTest.searchandnextprevios_button()[pri:21, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="setup" is-config="true" duration-ms="14102" started-at="2019-10-15T06:44:49Z" finished-at="2019-10-15T06:45:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Importcopy()[pri:22, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="Importcopy" duration-ms="10188" started-at="2019-10-15T06:45:03Z" description="verify the copy button" finished-at="2019-10-15T06:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Importcopy -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-15T06:45:13Z" finished-at="2019-10-15T06:45:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Importcopy status=SUCCESS method=VerifyAllDataButtonPageTest.Importcopy()[pri:22, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="teardown" is-config="true" duration-ms="166" started-at="2019-10-15T06:45:13Z" finished-at="2019-10-15T06:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="setup" is-config="true" duration-ms="17845" started-at="2019-10-15T06:45:13Z" finished-at="2019-10-15T06:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Importcsv()[pri:23, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="Importcsv" duration-ms="1129" started-at="2019-10-15T06:45:31Z" description="verify the csv button" finished-at="2019-10-15T06:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Importcsv -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-15T06:45:32Z" finished-at="2019-10-15T06:45:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Importcsv status=SUCCESS method=VerifyAllDataButtonPageTest.Importcsv()[pri:23, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="teardown" is-config="true" duration-ms="163" started-at="2019-10-15T06:45:32Z" finished-at="2019-10-15T06:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="setup" is-config="true" duration-ms="21224" started-at="2019-10-15T06:45:33Z" finished-at="2019-10-15T06:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Impotexcel()[pri:24, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="Impotexcel" duration-ms="1117" started-at="2019-10-15T06:45:54Z" description="verify the excel button" finished-at="2019-10-15T06:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Impotexcel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-15T06:45:55Z" finished-at="2019-10-15T06:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Impotexcel status=SUCCESS method=VerifyAllDataButtonPageTest.Impotexcel()[pri:24, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="teardown" is-config="true" duration-ms="167" started-at="2019-10-15T06:45:55Z" finished-at="2019-10-15T06:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="setup" is-config="true" duration-ms="54214" started-at="2019-10-15T06:45:55Z" finished-at="2019-10-15T06:46:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="Importpdf()[pri:25, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="Importpdf" duration-ms="0" started-at="2019-10-15T06:46:49Z" description="verify the pdf button" finished-at="2019-10-15T06:46:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Importpdf -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="Importprint()[pri:26, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="Importprint" duration-ms="0" started-at="2019-10-15T06:46:49Z" description="verify the print button" finished-at="2019-10-15T06:46:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Importprint -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="nextandprevious()[pri:27, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="nextandprevious" duration-ms="0" started-at="2019-10-15T06:46:49Z" description="verify next and previous button" finished-at="2019-10-15T06:46:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextandprevious -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.VerifyAllDataButtonPageTest@394e1a0f]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.VerifyAllDataButtonPageTest -->
+      <class name="com.herokuapp.qa.tests.CreateMissionsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="setup" is-config="true" duration-ms="15799" started-at="2019-10-15T06:31:34Z" finished-at="2019-10-15T06:31:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTableList()[pri:8, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="verifyTableList" duration-ms="5844" started-at="2019-10-15T06:31:50Z" description="verify the the table list" finished-at="2019-10-15T06:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:31:56Z" finished-at="2019-10-15T06:31:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTableList status=SUCCESS method=CreateMissionsPageTest.verifyTableList()[pri:8, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="teardown" is-config="true" duration-ms="126" started-at="2019-10-15T06:31:56Z" finished-at="2019-10-15T06:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="setup" is-config="true" duration-ms="18411" started-at="2019-10-15T06:31:56Z" finished-at="2019-10-15T06:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifymissionlabel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="verifymissionlabel" duration-ms="21049" started-at="2019-10-15T06:32:14Z" description="Fills the crate mission filed" data-provider="TracifyData" finished-at="2019-10-15T06:32:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing  New Department]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing Category]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Client 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test Deadline1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymissionlabel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:32:35Z" finished-at="2019-10-15T06:32:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymissionlabel status=SUCCESS method=CreateMissionsPageTest.verifymissionlabel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="teardown" is-config="true" duration-ms="135" started-at="2019-10-15T06:32:35Z" finished-at="2019-10-15T06:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="setup" is-config="true" duration-ms="16831" started-at="2019-10-15T06:32:36Z" finished-at="2019-10-15T06:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifymissionlabel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="verifymissionlabel" duration-ms="21072" started-at="2019-10-15T06:32:52Z" description="Fills the crate mission filed" data-provider="TracifyData" finished-at="2019-10-15T06:33:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Department]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation Category]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Danone]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test Deadline1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymissionlabel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-15T06:33:14Z" finished-at="2019-10-15T06:33:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymissionlabel status=SUCCESS method=CreateMissionsPageTest.verifymissionlabel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.CreateMissionsPageTest@4e7dc304]" name="teardown" is-config="true" duration-ms="138" started-at="2019-10-15T06:33:14Z" finished-at="2019-10-15T06:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.CreateMissionsPageTest -->
+      <class name="com.herokuapp.qa.tests.CustomerPageTest">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.CustomerPageTest@27a5f880]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="Customer()[pri:28, instance:com.herokuapp.qa.tests.CustomerPageTest@27a5f880]" name="Customer" duration-ms="0" started-at="2019-10-15T06:46:49Z" description="verify the all CTA on customer page" finished-at="2019-10-15T06:46:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.CustomerPageTest@27a5f880]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.CustomerPageTest@27a5f880]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.CustomerPageTest -->
+      <class name="com.herokuapp.qa.tests.MissionTable_expandPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.MissionTable_expandPageTest@10bbd20a]" name="setup" is-config="true" duration-ms="14973" started-at="2019-10-15T06:33:38Z" finished-at="2019-10-15T06:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="expand_table()[pri:11, instance:com.herokuapp.qa.tests.MissionTable_expandPageTest@10bbd20a]" name="expand_table" duration-ms="4280" started-at="2019-10-15T06:33:53Z" description="Validation the Exapand table option" finished-at="2019-10-15T06:33:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expand_table -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.MissionTable_expandPageTest@10bbd20a]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:33:58Z" finished-at="2019-10-15T06:33:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=expand_table status=SUCCESS method=MissionTable_expandPageTest.expand_table()[pri:11, instance:com.herokuapp.qa.tests.MissionTable_expandPageTest@10bbd20a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.MissionTable_expandPageTest@10bbd20a]" name="teardown" is-config="true" duration-ms="140" started-at="2019-10-15T06:33:58Z" finished-at="2019-10-15T06:33:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.MissionTable_expandPageTest -->
+      <class name="com.herokuapp.qa.tests.ColleaguesPageTest">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.ColleaguesPageTest@5f282abb]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="colleagues_link()[pri:30, instance:com.herokuapp.qa.tests.ColleaguesPageTest@5f282abb]" name="colleagues_link" duration-ms="0" started-at="2019-10-15T06:46:49Z" description="Test ColleaguesPage" finished-at="2019-10-15T06:46:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colleagues_link -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.ColleaguesPageTest@5f282abb]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.ColleaguesPageTest@5f282abb]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.herokuapp.qa.tests.ColleaguesPageTest -->
+      <class name="com.herokuapp.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.HomePageTest@d44fc21]" name="setup" is-config="true" duration-ms="16204" started-at="2019-10-15T06:29:43Z" finished-at="2019-10-15T06:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:3, instance:com.herokuapp.qa.tests.HomePageTest@d44fc21]" name="verifyHomePageTitle" duration-ms="11" started-at="2019-10-15T06:29:59Z" description="Validation the home page title" finished-at="2019-10-15T06:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.HomePageTest@d44fc21]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-15T06:29:59Z" finished-at="2019-10-15T06:29:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitle status=SUCCESS method=HomePageTest.verifyHomePageTitle()[pri:3, instance:com.herokuapp.qa.tests.HomePageTest@d44fc21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.HomePageTest@d44fc21]" name="teardown" is-config="true" duration-ms="130" started-at="2019-10-15T06:29:59Z" finished-at="2019-10-15T06:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.HomePageTest@d44fc21]" name="setup" is-config="true" duration-ms="24664" started-at="2019-10-15T06:30:00Z" finished-at="2019-10-15T06:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyUserProfileName()[pri:4, instance:com.herokuapp.qa.tests.HomePageTest@d44fc21]" name="VerifyUserProfileName" duration-ms="41" started-at="2019-10-15T06:30:24Z" description="Validation the userprofile name" finished-at="2019-10-15T06:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserProfileName -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.HomePageTest@d44fc21]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:30:24Z" finished-at="2019-10-15T06:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserProfileName status=SUCCESS method=HomePageTest.VerifyUserProfileName()[pri:4, instance:com.herokuapp.qa.tests.HomePageTest@d44fc21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.HomePageTest@d44fc21]" name="teardown" is-config="true" duration-ms="121" started-at="2019-10-15T06:30:24Z" finished-at="2019-10-15T06:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.HomePageTest -->
+      <class name="com.herokuapp.qa.tests.FollowupcreatedMissionPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.FollowupcreatedMissionPageTest@396f6598]" name="setup" is-config="true" duration-ms="14395" started-at="2019-10-15T06:41:04Z" finished-at="2019-10-15T06:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifymissionlabel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:com.herokuapp.qa.tests.FollowupcreatedMissionPageTest@396f6598]" name="verifymissionlabel" duration-ms="191004" started-at="2019-10-15T06:41:18Z" description="Fills the crate mission filed" data-provider="Followup" finished-at="2019-10-15T06:44:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Follow Up Mission]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Follow up chhotu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Client 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test Deadline 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymissionlabel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.FollowupcreatedMissionPageTest@396f6598]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-15T06:44:30Z" finished-at="2019-10-15T06:44:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymissionlabel status=SUCCESS method=FollowupcreatedMissionPageTest.verifymissionlabel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:com.herokuapp.qa.tests.FollowupcreatedMissionPageTest@396f6598] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.FollowupcreatedMissionPageTest@396f6598]" name="teardown" is-config="true" duration-ms="168" started-at="2019-10-15T06:44:30Z" finished-at="2019-10-15T06:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.FollowupcreatedMissionPageTest -->
+      <class name="com.herokuapp.qa.tests.MissionProductionPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="setup" is-config="true" duration-ms="15311" started-at="2019-10-15T06:38:56Z" finished-at="2019-10-15T06:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyCurrentMission()[pri:16, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="VerifyCurrentMission" duration-ms="5791" started-at="2019-10-15T06:39:11Z" description="verify current mission production page title" finished-at="2019-10-15T06:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCurrentMission -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="teardown" is-config="true" duration-ms="130" started-at="2019-10-15T06:39:17Z" finished-at="2019-10-15T06:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:39:17Z" finished-at="2019-10-15T06:39:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCurrentMission status=SUCCESS method=MissionProductionPageTest.VerifyCurrentMission()[pri:16, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="setup" is-config="true" duration-ms="18604" started-at="2019-10-15T06:39:17Z" finished-at="2019-10-15T06:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="pendingMission()[pri:17, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="pendingMission" duration-ms="5064" started-at="2019-10-15T06:39:36Z" description="verify pending mission production page title" finished-at="2019-10-15T06:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pendingMission -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="teardown" is-config="true" duration-ms="121" started-at="2019-10-15T06:39:41Z" finished-at="2019-10-15T06:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:39:41Z" finished-at="2019-10-15T06:39:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pendingMission status=SUCCESS method=MissionProductionPageTest.pendingMission()[pri:17, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="setup" is-config="true" duration-ms="16285" started-at="2019-10-15T06:39:41Z" finished-at="2019-10-15T06:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="completeMission()[pri:18, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="completeMission" duration-ms="4956" started-at="2019-10-15T06:39:57Z" description="verify compelte mission production page title" finished-at="2019-10-15T06:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeMission -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="teardown" is-config="true" duration-ms="137" started-at="2019-10-15T06:40:02Z" finished-at="2019-10-15T06:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:40:02Z" finished-at="2019-10-15T06:40:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeMission status=SUCCESS method=MissionProductionPageTest.completeMission()[pri:18, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="setup" is-config="true" duration-ms="15844" started-at="2019-10-15T06:40:02Z" finished-at="2019-10-15T06:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="allMission()[pri:19, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="allMission" duration-ms="5814" started-at="2019-10-15T06:40:18Z" description="verify all mission production page title" finished-at="2019-10-15T06:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allMission -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="teardown" is-config="true" duration-ms="121" started-at="2019-10-15T06:40:24Z" finished-at="2019-10-15T06:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:40:24Z" finished-at="2019-10-15T06:40:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=allMission status=SUCCESS method=MissionProductionPageTest.allMission()[pri:19, instance:com.herokuapp.qa.tests.MissionProductionPageTest@1f7030a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.herokuapp.qa.tests.MissionProductionPageTest -->
+      <class name="com.herokuapp.qa.tests.UpdateMissionPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.UpdateMissionPageTest@184f6be2]" name="setup" is-config="true" duration-ms="30399" started-at="2019-10-15T06:37:04Z" finished-at="2019-10-15T06:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifymissionlabel()[pri:14, instance:com.herokuapp.qa.tests.UpdateMissionPageTest@184f6be2]" name="verifymissionlabel" duration-ms="23981" started-at="2019-10-15T06:37:34Z" description="update the created record" finished-at="2019-10-15T06:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymissionlabel -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.UpdateMissionPageTest@184f6be2]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-15T06:37:58Z" finished-at="2019-10-15T06:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifymissionlabel status=SUCCESS method=UpdateMissionPageTest.verifymissionlabel()[pri:14, instance:com.herokuapp.qa.tests.UpdateMissionPageTest@184f6be2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.UpdateMissionPageTest@184f6be2]" name="teardown" is-config="true" duration-ms="139" started-at="2019-10-15T06:37:58Z" finished-at="2019-10-15T06:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.UpdateMissionPageTest -->
+      <class name="com.herokuapp.qa.tests.SubDivisonMissionPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.SubDivisonMissionPageTest@48503868]" name="setup" is-config="true" duration-ms="18689" started-at="2019-10-15T06:33:58Z" finished-at="2019-10-15T06:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyaddmision_as_subdepart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.herokuapp.qa.tests.SubDivisonMissionPageTest@48503868]" name="verifyaddmision_as_subdepart" duration-ms="7740" started-at="2019-10-15T06:34:17Z" description="verify add mission button with sub departement" data-provider="Tracifysubmission" finished-at="2019-10-15T06:34:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing  New Department]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing Category]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Client 1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test Deadline1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaddmision_as_subdepart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.SubDivisonMissionPageTest@48503868]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:34:24Z" finished-at="2019-10-15T06:34:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyaddmision_as_subdepart status=SUCCESS method=SubDivisonMissionPageTest.verifyaddmision_as_subdepart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.herokuapp.qa.tests.SubDivisonMissionPageTest@48503868] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.SubDivisonMissionPageTest@48503868]" name="teardown" is-config="true" duration-ms="137" started-at="2019-10-15T06:34:24Z" finished-at="2019-10-15T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.SubDivisonMissionPageTest@48503868]" name="setup" is-config="true" duration-ms="16951" started-at="2019-10-15T06:34:24Z" finished-at="2019-10-15T06:34:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyaddmision_as_subdepart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.herokuapp.qa.tests.SubDivisonMissionPageTest@48503868]" name="verifyaddmision_as_subdepart" duration-ms="7516" started-at="2019-10-15T06:34:41Z" description="verify add mission button with sub departement" data-provider="Tracifysubmission" finished-at="2019-10-15T06:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Department]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Automation Category]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Danone]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chhotuManual]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test Deadline1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaddmision_as_subdepart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.SubDivisonMissionPageTest@48503868]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:34:49Z" finished-at="2019-10-15T06:34:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyaddmision_as_subdepart status=SUCCESS method=SubDivisonMissionPageTest.verifyaddmision_as_subdepart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.herokuapp.qa.tests.SubDivisonMissionPageTest@48503868] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.SubDivisonMissionPageTest@48503868]" name="teardown" is-config="true" duration-ms="126" started-at="2019-10-15T06:34:49Z" finished-at="2019-10-15T06:34:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.SubDivisonMissionPageTest -->
+      <class name="com.herokuapp.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@51cdd8a]" name="setup" is-config="true" duration-ms="9741" started-at="2019-10-15T06:29:20Z" finished-at="2019-10-15T06:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyloginpagetitle()[pri:1, instance:com.herokuapp.qa.tests.LoginPageTest@51cdd8a]" name="verifyloginpagetitle" duration-ms="26" started-at="2019-10-15T06:29:30Z" description="Validation of Login page tile" finished-at="2019-10-15T06:29:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginpagetitle -->
-        <test-method status="PASS" signature="Exit()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="Exit" is-config="true" duration-ms="957" started-at="2019-09-04T08:55:39Z" finished-at="2019-09-04T08:55:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Exit -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="getResult" is-config="true" duration-ms="9" started-at="2019-09-04T08:55:40Z" finished-at="2019-09-04T08:55:40Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@51cdd8a]" name="getResult" is-config="true" duration-ms="2" started-at="2019-10-15T06:29:30Z" finished-at="2019-10-15T06:29:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyloginpagetitle status=SUCCESS method=LoginPageTest.verifyloginpagetitle()[pri:1, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e] output={null}]]]>
+                <![CDATA[[TestResult name=verifyloginpagetitle status=SUCCESS method=LoginPageTest.verifyloginpagetitle()[pri:1, instance:com.herokuapp.qa.tests.LoginPageTest@51cdd8a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="setup" is-config="true" duration-ms="8698" started-at="2019-09-04T08:55:40Z" finished-at="2019-09-04T08:55:49Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@51cdd8a]" name="teardown" is-config="true" duration-ms="75" started-at="2019-10-15T06:29:30Z" finished-at="2019-10-15T06:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@51cdd8a]" name="setup" is-config="true" duration-ms="7475" started-at="2019-10-15T06:29:30Z" finished-at="2019-10-15T06:29:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:2, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="login" duration-ms="8608" started-at="2019-09-04T08:55:49Z" description="Tracify user login Page" finished-at="2019-09-04T08:55:57Z">
+        <test-method status="PASS" signature="login()[pri:2, instance:com.herokuapp.qa.tests.LoginPageTest@51cdd8a]" name="login" duration-ms="5984" started-at="2019-10-15T06:29:37Z" description="Tracify user login Page" finished-at="2019-10-15T06:29:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="Exit()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="Exit" is-config="true" duration-ms="1014" started-at="2019-09-04T08:55:57Z" finished-at="2019-09-04T08:55:58Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@51cdd8a]" name="teardown" is-config="true" duration-ms="143" started-at="2019-10-15T06:29:43Z" finished-at="2019-10-15T06:29:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Exit -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="getResult" is-config="true" duration-ms="2" started-at="2019-09-04T08:55:58Z" finished-at="2019-09-04T08:55:58Z">
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@51cdd8a]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:29:43Z" finished-at="2019-10-15T06:29:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=LoginPageTest.login()[pri:2, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginPageTest.login()[pri:2, instance:com.herokuapp.qa.tests.LoginPageTest@51cdd8a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.herokuapp.qa.tests.LoginPageTest@9660f4e]" name="endReport" is-config="true" duration-ms="398" started-at="2019-09-04T08:55:58Z" finished-at="2019-09-04T08:55:59Z">
+      </class> <!-- com.herokuapp.qa.tests.LoginPageTest -->
+      <class name="com.herokuapp.qa.tests.LogoutPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.LogoutPageTest@23faf8f2]" name="setup" is-config="true" duration-ms="19282" started-at="2019-10-15T06:30:24Z" finished-at="2019-10-15T06:30:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- com.herokuapp.qa.tests.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clicklogout()[pri:5, instance:com.herokuapp.qa.tests.LogoutPageTest@23faf8f2]" name="clicklogout" duration-ms="4733" started-at="2019-10-15T06:30:44Z" description="Validation the user logout the app" finished-at="2019-10-15T06:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogout -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.LogoutPageTest@23faf8f2]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:30:48Z" finished-at="2019-10-15T06:30:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clicklogout status=SUCCESS method=LogoutPageTest.clicklogout()[pri:5, instance:com.herokuapp.qa.tests.LogoutPageTest@23faf8f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.LogoutPageTest@23faf8f2]" name="teardown" is-config="true" duration-ms="126" started-at="2019-10-15T06:30:48Z" finished-at="2019-10-15T06:30:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.LogoutPageTest -->
+      <class name="com.herokuapp.qa.tests.CustomerFormPageTest">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.CustomerFormPageTest@1d29cf23]" name="setup" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="Customer()[pri:29, instance:com.herokuapp.qa.tests.CustomerFormPageTest@1d29cf23]" name="Customer" duration-ms="0" started-at="2019-10-15T06:46:49Z" description="Fill the customer form details" finished-at="2019-10-15T06:46:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: ef10878b2ac025e478590385e48...}
+Session ID: ef10878b2ac025e478590385e48a78fd
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+at com.sun.proxy.$Proxy8.get(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:161)
+at com.herokuapp.qa.base.Base.initialization(Base.java:99)
+at com.herokuapp.qa.tests.VerifyAllDataButtonPageTest.setup(VerifyAllDataButtonPageTest.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.CustomerFormPageTest@1d29cf23]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.CustomerFormPageTest@1d29cf23]" name="teardown" is-config="true" duration-ms="0" started-at="2019-10-15T06:46:49Z" finished-at="2019-10-15T06:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.herokuapp.qa.tests.CustomerFormPageTest -->
+      <class name="com.herokuapp.qa.tests.DeleteMissionPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.herokuapp.qa.tests.DeleteMissionPageTest@56aac163]" name="setup" is-config="true" duration-ms="22828" started-at="2019-10-15T06:37:58Z" finished-at="2019-10-15T06:38:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="veriflabel()[pri:15, instance:com.herokuapp.qa.tests.DeleteMissionPageTest@56aac163]" name="veriflabel" duration-ms="34362" started-at="2019-10-15T06:38:21Z" description="update the created record" finished-at="2019-10-15T06:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veriflabel -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.herokuapp.qa.tests.DeleteMissionPageTest@56aac163]" name="teardown" is-config="true" duration-ms="240" started-at="2019-10-15T06:38:56Z" finished-at="2019-10-15T06:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.herokuapp.qa.tests.DeleteMissionPageTest@56aac163]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-15T06:38:56Z" finished-at="2019-10-15T06:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=veriflabel status=SUCCESS method=DeleteMissionPageTest.veriflabel()[pri:15, instance:com.herokuapp.qa.tests.DeleteMissionPageTest@56aac163] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.herokuapp.qa.tests.DeleteMissionPageTest -->
+    </test> <!-- tracify app test Cases -->
+  </suite> <!-- tracify Application Test Automation Test Suite -->
 </testng-results>

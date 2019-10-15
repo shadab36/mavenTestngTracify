@@ -23,10 +23,6 @@ public class CreateMissionsPage extends Base{
 	WebElement All_departments;
 	
 	
-	
-	
-	
-	
 	@FindBy(css="body > div.app-content > div > div:nth-child(1) > div:nth-child(2) > a > button")
 	WebElement Addmission;
 	
@@ -142,38 +138,57 @@ public void Deadline(String deadline) {
 	WebElement select_deadline= driver.findElement(By.xpath("//li[contains(text(),'" + deadline + "')]"));
 	select_deadline.click();
 }
-public void Select_date() {
+public void Select_date() throws InterruptedException {
 	date.click();
-	
+	Thread.sleep(1000);
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	try {
 		//If the current day is Sunday
 		Calendar c = Calendar.getInstance();
-		if(c.get(Calendar.DAY_OF_WEEK)== Calendar.SUNDAY) {
-		    System.out.println("SUNDAY!");
-		 
+		if(!(c.get(Calendar.DAY_OF_WEEK)== Calendar.SATURDAY)) {
+			  System.out.println("SATURDAY!");
 		    js.executeScript(
-					"return document.getElementsByClassName('picker__day--highlighted')[0].parentNode.parentNode.nextElementSibling.getElementsByClassName('picker__day picker__day--infocus')[0].click();");
+					"return  document.getElementsByClassName('picker__day--highlighted')[0].parentNode.nextElementSibling.getElementsByClassName('picker__day picker__day--infocus')[0].click();");
+
+		    //return document.getElementsByClassName('picker__day--highlighted')[0].parentNode.parentNode.nextElementSibling.getElementsByClassName('picker__day picker__day--infocus')[0].click();
 			Thread.sleep(1000); 
 			System.out.println("next day");					
 			
 		}
+		
+		else if ((c.get(Calendar.DAY_OF_WEEK)== Calendar.SATURDAY)) {
+			
+		    System.out.println("testSaturday");
+		    js.executeScript(
+					"return document.getElementsByClassName('picker__day--highlighted')[0].parentNode.parentNode.nextElementSibling.getElementsByClassName('picker__day picker__day--infocus')[0].click();");
+			Thread.sleep(1000); 
+			System.out.println("next day");					
+		
+		}
+		
+		else if (!(c.get(Calendar.DAY_OF_WEEK)== Calendar.SUNDAY)) {
+			
+		 js.executeScript(
+					"return document.getElementsByClassName('picker__day--highlighted')[0].parentNode.nextElementSibling.getElementsByClassName('picker__day picker__day--infocus')[0].click();");
+		Thread.sleep(1000); 
+		}
 	else {	
-		try {
+	
 	
 			js.executeScript("return document.getElementsByClassName('picker__day--highlighted')[0].parentNode.nextElementSibling.getElementsByClassName('picker__day picker__day--infocus')[0].click();");
 			Thread.sleep(1000); 
+				
 	
-	
-		}catch(Exception e) {
-			js.executeScript(
-					"return	document.getElementsByClassName('picker__day--highlighted')[0].parentNode.nextElementSibling.getElementsByClassName('picker__day picker__day--outfocus')[0].click();");
-			System.out.println("next day");	
+		
+			
 		}
-	}
+	
 		
 	} catch (Exception exe) {
-		
+
+		js.executeScript(
+				"return	document.getElementsByClassName('picker__day--highlighted')[0].parentNode.nextElementSibling.getElementsByClassName('picker__day picker__day--outfocus')[0].click();");
+		System.out.println("next day tomorrow");	
 	}
 }
 public void Save_mission()throws Throwable       {

@@ -28,13 +28,12 @@ public class MissionTable_expandPageTest extends Base{
 	}
 
 	
-@Test(priority=13,description="Validation the Exapand table option")
+@Test(priority=11,description="Validation the Exapand table option")
 public void expand_table() throws Exception {
-	log = extent.createTest("Validation expand table option (+) plus icon");
+	
 	Mission_Expand.ExpandTable();
 
-	logger.info("Expand the mission table");
-	log = extent.createTest("Expand the mission table list");
+	
 }
 
 }
