@@ -1,0 +1,1 @@
+{"uuid":"d1a0b9e8-80ae-4512-abf4-3fc6776a6acd","name":"com.herokuapp.qa.base.Base.teardown","description":"","start":1571218240384,"stop":1571218240450,"children":["0671caf9-72e9-4784-bf47-8cc2febebe86"],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","start":1571218240384,"stop":1571218240450}]}
