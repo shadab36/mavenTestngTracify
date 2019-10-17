@@ -23,7 +23,7 @@ public class TestUtil extends Base{
 	public static long Pageload_Time_Out=40;
 	public static long Implicty_Wait=20;
 	public static String Test_sheet_path=
-	"F:\\KeyWordDrivenFrameWork\\com.client.tracify.com\\src\\main\\java\\com\\herokuapp\\qa\\testdata\\missionData.xlsx";
+	"com.client.tracify.com\\src\\main\\java\\com\\herokuapp\\qa\\testdata\\missionData.xlsx";
 	public static Workbook book;
 	public static Sheet sheet;
 	static JavascriptExecutor js;

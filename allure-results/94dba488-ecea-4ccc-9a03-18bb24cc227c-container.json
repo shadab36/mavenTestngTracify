@@ -1,0 +1,1 @@
+{"uuid":"94dba488-ecea-4ccc-9a03-18bb24cc227c","name":"com.herokuapp.qa.base.Base.getResult","description":"","start":1571296625832,"stop":1571296625847,"children":["ec410571-9dd2-4e92-9665-300d11bcbb24"],"afters":[{"name":"getResult","status":"passed","stage":"finished","description":"","start":1571296625832,"stop":1571296625847}]}
