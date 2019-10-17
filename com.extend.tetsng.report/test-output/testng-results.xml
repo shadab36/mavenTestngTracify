@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12470" started-at="2019-10-10T05:40:17Z" finished-at="2019-10-10T05:40:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12470" started-at="2019-10-10T05:40:17Z" finished-at="2019-10-10T05:40:29Z">
+      <class name="com.qa.TestCase.AmazonLoginPageTest">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152]" name="ReportSetup" is-config="true" duration-ms="181" started-at="2019-10-10T05:40:01Z" finished-at="2019-10-10T05:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152]" name="setup" is-config="true" duration-ms="15779" started-at="2019-10-10T05:40:01Z" depends-on-methods="com.qa.BaseClass.BaseClass.ReportSetup" finished-at="2019-10-10T05:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AmazonLogoTest()[pri:1, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152]" name="AmazonLogoTest" duration-ms="951" started-at="2019-10-10T05:40:17Z" description="Validation of Logo On Amazon Home Page" finished-at="2019-10-10T05:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonLogoTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152]" name="getResult" is-config="true" duration-ms="4" started-at="2019-10-10T05:40:18Z" finished-at="2019-10-10T05:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AmazonLogoTest status=SUCCESS method=AmazonLoginPageTest.AmazonLogoTest()[pri:1, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ConsumerPortalTittle()[pri:2, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152]" name="ConsumerPortalTittle" duration-ms="22" started-at="2019-10-10T05:40:18Z" description="Validation of Tittle On Amazon Home Page" finished-at="2019-10-10T05:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsumerPortalTittle -->
+        <test-method status="PASS" signature="ConsumerLogoTest()[pri:3, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152]" name="ConsumerLogoTest" duration-ms="10429" started-at="2019-10-10T05:40:18Z" description="Amazon Customer Login Page" finished-at="2019-10-10T05:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsumerLogoTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-10T05:40:18Z" finished-at="2019-10-10T05:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConsumerPortalTittle status=SUCCESS method=AmazonLoginPageTest.ConsumerPortalTittle()[pri:2, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-10T05:40:28Z" finished-at="2019-10-10T05:40:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConsumerLogoTest status=SUCCESS method=AmazonLoginPageTest.ConsumerLogoTest()[pri:3, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Exit()[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152]" name="Exit" is-config="true" duration-ms="1022" started-at="2019-10-10T05:40:28Z" finished-at="2019-10-10T05:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.TestCase.AmazonLoginPageTest@6e6c3152]" name="endReport" is-config="true" duration-ms="560" started-at="2019-10-10T05:40:29Z" finished-at="2019-10-10T05:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.TestCase.AmazonLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
